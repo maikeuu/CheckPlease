@@ -14,6 +14,7 @@
 		C489094B1FF3404900377E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48909491FF3404900377E3A /* LaunchScreen.storyboard */; };
 		C48909561FF3404A00377E3A /* Check_Please_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48909551FF3404A00377E3A /* Check_Please_Tests.swift */; };
 		C48909611FF3404A00377E3A /* Check_Please_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48909601FF3404A00377E3A /* Check_Please_UITests.swift */; };
+		C489096F1FF70A3900377E3A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489096E1FF70A3900377E3A /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C489095C1FF3404A00377E3A /* Check Please!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Check Please!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48909601FF3404A00377E3A /* Check_Please_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_Please_UITests.swift; sourceTree = "<group>"; };
 		C48909621FF3404A00377E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C489096E1FF70A3900377E3A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		C489093F1FF3404900377E3A /* Check Please! */ = {
 			isa = PBXGroup;
 			children = (
+				C489096E1FF70A3900377E3A /* SettingsViewController.swift */,
 				C48909401FF3404900377E3A /* AppDelegate.swift */,
 				C48909421FF3404900377E3A /* ViewController.swift */,
 				C48909441FF3404900377E3A /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				C48909431FF3404900377E3A /* ViewController.swift in Sources */,
 				C48909411FF3404900377E3A /* AppDelegate.swift in Sources */,
+				C489096F1FF70A3900377E3A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
